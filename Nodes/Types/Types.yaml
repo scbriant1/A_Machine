@@ -1,2 +1,297 @@
 Name: Types
 Type: FolderType
+Children:
+- Name: DynamicColorFillAccent
+  Id: g=89f281e205c6d8a1c28e658ffbb1290b
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":4}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DataBind
+          DataType: NodePath
+          ModellingRule: None
+          Value: "{NodeId:ns=4;g=ce11b7c8-920e-de69-8b87-b98ef8414384}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DataBindModeType
+            ModellingRule: None
+            Value: 2
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"6c52f2ae149bc0b0c53ed8546025a861","Namespace":4}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DataBind
+          DataType: NodePath
+          ModellingRule: None
+          Value: "{NodeId:ns=4;g=c50272b5-39e1-5d38-b83d-4dd8c7046b54}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DataBindModeType
+            ModellingRule: None
+            Value: 2
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"51c2bdda411c0380ea68f3a5524b146c","Namespace":4}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DataBind
+          DataType: NodePath
+          ModellingRule: None
+          Value: "{NodeId:ns=4;g=5680fc22-2f7f-553f-9b41-9998d3e63ef1}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DataBindModeType
+            ModellingRule: None
+            Value: 2
+    - Name: Pair3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"58e0175e0498c491977785c13464e955","Namespace":4}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DataBind
+          DataType: NodePath
+          ModellingRule: None
+          Value: "{NodeId:ns=4;g=abd83805-806e-022e-866c-e69fc7fa36c7}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DataBindModeType
+            ModellingRule: None
+            Value: 2
+    - Name: Pair4
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"577f528d7b40bd0b7dd421e42c951fba","Namespace":4}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DataBind
+          DataType: NodePath
+          ModellingRule: None
+          Value: "{NodeId:ns=4;g=445020de-402e-12cf-3b8f-35e60712d8fe}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DataBindModeType
+            ModellingRule: None
+            Value: 2
+- Name: DynamicColorFill
+  Id: g=3b3b14e535420c7e5c4bc0e6a936acb9
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":4}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DataBind
+          DataType: NodePath
+          ModellingRule: None
+          Value: "{NodeId:ns=4;g=7ff4fd0b-739f-9498-f0ad-84bf86c0671e}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DataBindModeType
+            ModellingRule: None
+            Value: 2
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"6c52f2ae149bc0b0c53ed8546025a861","Namespace":4}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DataBind
+          DataType: NodePath
+          ModellingRule: None
+          Value: "{NodeId:ns=4;g=95c2ac46-1541-148b-a715-06eac8ddee75}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DataBindModeType
+            ModellingRule: None
+            Value: 2
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"51c2bdda411c0380ea68f3a5524b146c","Namespace":4}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DataBind
+          DataType: NodePath
+          ModellingRule: None
+          Value: "{NodeId:ns=4;g=e7373efc-9df0-459d-ed8f-1b59b1461a86}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DataBindModeType
+            ModellingRule: None
+            Value: 2
+    - Name: Pair3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"58e0175e0498c491977785c13464e955","Namespace":4}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DataBind
+          DataType: NodePath
+          ModellingRule: None
+          Value: "{NodeId:ns=4;g=825c08b4-333a-8f97-ec66-5212620a8e5e}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DataBindModeType
+            ModellingRule: None
+            Value: 2
+    - Name: Pair4
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"577f528d7b40bd0b7dd421e42c951fba","Namespace":4}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DataBind
+          DataType: NodePath
+          ModellingRule: None
+          Value: "{NodeId:ns=4;g=ae6ebe3b-b7e2-3018-5096-940ddf216730}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DataBindModeType
+            ModellingRule: None
+            Value: 2
+- Name: Fan
+  Id: g=d14a91fa661846cd75392c3a975908d0
+  Supertype: BaseObjectType
+  Children:
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1

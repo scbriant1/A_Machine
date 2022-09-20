@@ -16,5 +16,9 @@ Project:
    Uri: 'urn:FTOptix:HMIProject'
    Module: FTOptix.HMIProject
    Version: 1.0
+  5:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 1.0
  Nodes:
  - File: Nodes/A_Machine.yaml

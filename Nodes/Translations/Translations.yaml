@@ -1,2 +1,17 @@
 Name: Translations
 Type: FolderType
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [2,4],
+    "Body": [
+     "Key","en-US","it-IT","zh-CN",
+     "Fan Number {0}","Fan Number {0}","Numero ventilatori {0}",""
+    ]
+   }
