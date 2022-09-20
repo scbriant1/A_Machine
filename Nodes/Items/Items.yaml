@@ -1,0 +1,7 @@
+Name: Items
+Type: FolderType
+Children:
+- File: Infeed/Infeed.yaml
+- File: Main/Main.yaml
+- File: Label/Label.yaml
+- File: Misc/Misc.yaml
